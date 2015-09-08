@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doorbell_api_key" translatable="false">gwiUWzj3xq9dPfD1Iz58txf9CuwUg9QQRJntvMr5QS8mJu5fBr4AzivNuuQqOeTu</string>
+
+    <string name="parse_application_id">yMyoy5G3bG42GdyJXuIidJ2p3HW7WW5UAjg6rwgN</string>
+    <string name="parse_client_key">mDt8bskw5ra8Fg3jnfZl3R6Y7LgEqUbhVBHz1vUq</string>
+
+    <string name="facebook_app_id">439211322918648</string>
+
+    <string name="twitter_consumer_key">cUCrG5hnNvjgLt0MKLKiAJrP3</string>
+    <string name="twitter_consumer_secret">1mZuGA02BvDSOguc6jLjITD0OkBPaI3v0WozIqNH59mGHjJGDG</string>
+</resources>

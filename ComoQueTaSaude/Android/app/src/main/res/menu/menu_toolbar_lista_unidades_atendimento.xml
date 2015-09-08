@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:support="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@id/action_more_vert"
+        android:title="Opções"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        support:showAsAction="always"
+        >
+        <menu>
+            <item
+                android:id="@id/action_see_in_map"
+                android:icon="@drawable/ic_map_black_24dp"
+                android:title="@string/action_see_in_map"
+                />
+            <item
+                android:id="@id/action_see_in_street"
+                android:icon="@drawable/ic_directions_walk_black_24dp"
+                android:title="@string/action_see_in_street"
+                />
+            <item
+                android:id="@id/action_add_to_favorites"
+                android:icon="@drawable/ic_favorite_black_24dp"
+                android:title="@string/action_add_to_favorites"
+                />
+            <item
+                android:id="@id/action_remove_from_favorites"
+                android:icon="@drawable/ic_clear_black_24dp"
+                android:title="@string/action_remove_from_favorites"
+                android:visible="false"
+                />
+        </menu>
+    </item>
+</menu>

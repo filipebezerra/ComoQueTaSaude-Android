@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" android:id="@+id/main_menu">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="Unidades de Atendimento"
+            android:checked="true"
+            />
+        <!--
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Atendimento Preferido"
+            />
+            -->
+    </group>
+    <group android:checkableBehavior="none" android:id="@+id/extra_menu">
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Meu Feedback"
+            />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="Falar com desenvolvedor"
+            />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_rate_review_black_24dp"
+            android:title="Classificar o app"
+            />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Compartilhar o app"
+            />
+    </group>
+</menu>

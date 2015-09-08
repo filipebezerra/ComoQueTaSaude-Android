@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CQT? Saúde</string>
+    <string name="title_activity_home">Como Que Tá? Saúde</string>
+
+    <string name="action_search">Procurar unid. de atendimento</string>
+    <string name="search_hint">Procurar unid. de atendimento</string>
+    <string name="voice_prompt_text">Fale a unidade de atendimento que procura</string>
+
+    <string name="doorbell_cancel">Cancelar</string>
+    <string name="doorbell_email_hint">Seu e-mail</string>
+    <string name="doorbell_message_hint">Como temos te ajudado e como podemos melhorar?</string>
+    <string name="doorbell_send">Enviar</string>
+    <string name="doorbell_sending">Enviando …</string>
+    <string name="doorbell_title">Feedback</string>
+    <string name="share_text">
+        Faça o download do aplicativo Como Que Tá Saúde e saiba como anda o serviço público em
+        Goiás.\n\nBaixe da loja de aplicativos Play Store:
+        https://play.google.com/store/apps/details?id=br.com.comoqueta.comoquetasaude.android
+    </string>
+    <string name="splashscreen_content_description">SplashScreen image</string>
+    <string name="action_see_in_map">Ver no mapa</string>
+    <string name="action_add_to_favorites">Marcar como preferido</string>
+    <string name="title_activity_unidade_atendimento">Como Que Tá? Saúde</string>
+    <string name="action_remove_from_favorites">Remover dos preferidos</string>
+    <string name="action_see_in_street">Ver na rua</string>
+    <string name="title_activity_street_view">Como Que Tá? Saúde</string>
+    <string name="title_map_activity">Como Que Tá? Saúde</string>
+    <string name="title_activity_nova_avaliacao">Como Que Tá? Saúde</string>
+    <string name="action_save">Gravar</string>
+    <string name="nota_avaliacao_content_desc">Nota da avaliação de 0 a 5</string>
+    <string name="dialog_title_time_picker">Escolha o horário</string>
+</resources>

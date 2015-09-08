@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="map_container" type="id" />
+    <item name="main_container" type="id" />
+    <item name="map" type="id" />
+    <item name="recyclerview" type="id" />
+    <item name="appbar" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="tabs" type="id" />
+    <item name="viewpager" type="id" />
+    <item name="drawer_layout" type="id" />
+    <item name="nav_view" type="id" />
+    <item name="fragment" type="id" />
+    <item name="action_more_vert" type="id" />
+    <item name="action_see_in_map" type="id" />
+    <item name="action_add_to_favorites" type="id" />
+    <item name="action_remove_from_favorites" type="id" />
+    <item name="action_see_in_street" type="id" />
+    <item name="street_view_panorama_fragment" type="id" />
+    <item name="card" type="id" />
+    <item name="scroll" type="id" />
+    <item name="fab_rate" type="id" />
+    <item name="fab_save" type="id" />
+</resources>

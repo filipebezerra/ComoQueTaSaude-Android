@@ -1,0 +1,154 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:support="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    support:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.comoqueta.comoquetasaude.android.fragments.InformacoesUnidadeAtendimentoFragment"
+    >
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        support:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            support:cardElevation="@dimen/spacing_medium"
+            support:cardCornerRadius="4dp"
+            support:cardUseCompatPadding="true"
+            support:contentPadding="8dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/unit_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    tools:text="Unidade"
+                    />
+
+                <TextView
+                    android:id="@+id/status_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/unit_name"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    tools:text="Avaliações do dia"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/rating_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/status_date"
+                    android:baselineAligned="false"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:layout_margin="@dimen/spacing_medium"
+                        android:padding="@dimen/spacing_medium"
+                        android:background="?attr/colorPrimary"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                            android:textColor="@android:color/white"
+                            android:text="1 hr 45 m"
+                            />
+
+                        <ImageView
+                            android:id="@+id/average"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/like"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            android:textColor="@android:color/white"
+                            android:text="Média Atendimento"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:layout_margin="@dimen/spacing_medium"
+                        android:padding="@dimen/spacing_medium"
+                        android:background="?attr/colorPrimary"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                            android:textColor="@android:color/white"
+                            android:text="Bom"
+                            />
+
+                        <ImageView
+                            android:id="@+id/rating"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/smile_feliz"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                            android:textColor="@android:color/white"
+                            android:text="Avaliação"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        style="@style/FabStyle"
+        android:id="@id/fab_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        support:layout_anchor="@id/card"
+        support:layout_anchorGravity="bottom|right|end"
+        android:src="@drawable/ic_rate_review_white_24dp"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

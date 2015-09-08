@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="Theme.ComoQueTa" parent="Base.Theme.ComoQueTa">
+    </style>
+
+    <style name="Base.Theme.ComoQueTa" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#EC3237</item>
+        <item name="colorPrimaryDark">#EC3237</item>
+        <item name="colorAccent">#673ab7</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/fab_compat_margin</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+</resources>
